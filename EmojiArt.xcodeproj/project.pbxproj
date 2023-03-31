@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		29E74E8229AF751200097FCD /* SelectionEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29E74E8129AF751200097FCD /* SelectionEffect.swift */; };
+		29E74E8429D71D8600097FCD /* AnimatableSystemFontModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29E74E8329D71D8600097FCD /* AnimatableSystemFontModifier.swift */; };
 		EC030741263771AD001E9F47 /* EmojiArtApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC030740263771AD001E9F47 /* EmojiArtApp.swift */; };
 		EC030743263771AD001E9F47 /* EmojiArtDocumentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC030742263771AD001E9F47 /* EmojiArtDocumentView.swift */; };
 		EC030745263771AD001E9F47 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC030744263771AD001E9F47 /* Assets.xcassets */; };
@@ -19,6 +21,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		29E74E8129AF751200097FCD /* SelectionEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectionEffect.swift; sourceTree = "<group>"; };
+		29E74E8329D71D8600097FCD /* AnimatableSystemFontModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatableSystemFontModifier.swift; sourceTree = "<group>"; };
 		EC03073D263771AD001E9F47 /* EmojiArt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EmojiArt.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC030740263771AD001E9F47 /* EmojiArtApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiArtApp.swift; sourceTree = "<group>"; };
 		EC030742263771AD001E9F47 /* EmojiArtDocumentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiArtDocumentView.swift; sourceTree = "<group>"; };
@@ -62,6 +66,8 @@
 		EC03073F263771AD001E9F47 /* EmojiArt */ = {
 			isa = PBXGroup;
 			children = (
+				29E74E8329D71D8600097FCD /* AnimatableSystemFontModifier.swift */,
+				29E74E8129AF751200097FCD /* SelectionEffect.swift */,
 				EC030740263771AD001E9F47 /* EmojiArtApp.swift */,
 				EC030751263771D0001E9F47 /* EmojiArtModel.Background.swift */,
 				EC03074F263771AD001E9F47 /* EmojiArtModel.swift */,
@@ -154,8 +160,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				EC030758263774A2001E9F47 /* UtilityViews.swift in Sources */,
+				29E74E8429D71D8600097FCD /* AnimatableSystemFontModifier.swift in Sources */,
 				EC030743263771AD001E9F47 /* EmojiArtDocumentView.swift in Sources */,
 				EC030741263771AD001E9F47 /* EmojiArtApp.swift in Sources */,
+				29E74E8229AF751200097FCD /* SelectionEffect.swift in Sources */,
 				EC030757263774A2001E9F47 /* UtilityExtensions.swift in Sources */,
 				EC030754263772D8001E9F47 /* EmojiArtDocument.swift in Sources */,
 				EC030750263771AD001E9F47 /* EmojiArtModel.swift in Sources */,
